@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+
+body{
+    background-color:#e8ffff;
+}
+
+.myForm{
+    width:500px;
+    margin:auto;
+    margin-top:70px;
+    background:white;
+    padding:20px;
+    box-shadow:2px 3px 8px grey;
+}
+
+.myForm h1{
+    text-align:center;
+    color:green;
+    margin-bottom:20px;
+    text-decoration:underline;
+}
+
+.myForm label{
+    color:green;
+    font-weight:bold;
+}
+
+.myForm input{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+}
+
+.myForm button{
+    width:100%;
+    padding:10px;
+    background:limegreen;
+    color:white;
+    border:none;
+    font-size:16px;
+    cursor:pointer;
+}
+
+#last{
+    text-align:center;
+    margin-top:20px;
+}
+
+#last a{
+    color:green;
+}
