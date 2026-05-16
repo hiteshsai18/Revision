@@ -7,16 +7,30 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <form class="myForm">
+    <form class="myForm" id="loginForm">
         <h1>Login</h1>
         <label>Email</label>
-        <input type="email" placeholder="Enter email" required/>
+        <input type="email" id="email" placeholder="Enter email" required/>
         <label>Password</label>
-        <input type="password" placeholder="Enter password" required/>
-        <button>Login</button>
+        <input type="password" id="password" placeholder="Enter password" required/>
+        <button type="submit">Login</button>
     </form>
     <div id="last">
         <a href="index.html">No account? Register here</a>
     </div>
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+
+            event.preventDefault();
+
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+
+            if(email !== "" && password !== "") {
+                window.location.href = "ecommerce.html";
+            }
+
+        });
+    </script>
 </body>
 </html>
