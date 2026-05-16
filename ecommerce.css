@@ -53,6 +53,12 @@ footer ul li {
     transition: 0.3s;
 }
 
+footer .social a{
+    color:white;
+    padding-left: 10px;
+}
+
+
 footer ul li a {
     color: white !important;
     text-decoration: none !important;
